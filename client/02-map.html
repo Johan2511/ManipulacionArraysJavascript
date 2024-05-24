@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For each</title>
+    <title>Map</title>
 </head>
 <body>
     <div id="app">
@@ -28,14 +28,15 @@
 
         const app = document.getElementById('app');
     
-            tasks.forEach(task => {
-        app.innerHTML += `
+       const list = tasks.map(task => {
+        return `
         <li> 
           Nombre: ${task.task} ||  
           Descripción: ${task.description} - 
           <input type="checkbox" ${task.done ? 'checked' : ''}/>
         </li>`
         });
+        app.innerHTML = list.join('');
     </script>
 </body>
 </html>
