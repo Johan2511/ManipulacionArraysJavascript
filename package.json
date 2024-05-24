@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/platzi/curso-manipulacion-de-arrays.git"
+    "url": "https://github.com/Johan2511/ManipulacionArraysJavascript.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/platzi/curso-manipulacion-de-arrays/issues"
+    
   },
-  "homepage": "https://github.com/platzi/curso-manipulacion-de-arrays#readme",
+  "homepage": "https://github.com/Johan2511/ManipulacionArraysJavascript.git",
   "dependencies": {
     "http-server": "^0.12.3"
   }
